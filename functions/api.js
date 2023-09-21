@@ -6,7 +6,7 @@ const router = express.Router();
 let records = [];
 
 //Get all students
-router.get("/", (req, res) => {
+router.get("/abc-background", (req, res) => {
   setTimeout(() => {
     res.send("App is running..");
   }, 10000);
